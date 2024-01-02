@@ -36,9 +36,9 @@ Each module is represented in a rectangular or rounded container with icons that
 
 | Product 1  | Product 2  | Score |
 |------------|------------|-------|
-|<img src="images/nike_vaporfly_1.png" width="200"/>|<img src="images/nike_vaporfly_2.png" width="200"/>|1|
-|<img src="images/nike_vaporfly_1.png" width="200"/>|<img src="images/adios_pro.jpg" width="200"/>|0|
-|<img src="images/fenix6.png" width="200"/>|<img src="images/fenix7.png" width="200"/>|<span style="color:red">1 or 0.9 (wrong)</span>|
+|<img src="images/nike_vaporfly_1.png" width="200"/>|<img src="images/nike_vaporfly_2.png" width="200"/>|✅ 1|
+|<img src="images/nike_vaporfly_1.png" width="200"/>|<img src="images/adios_pro.jpg" width="200"/>|✅ 0|
+|<img src="images/fenix6.png" width="200"/>|<img src="images/fenix7.png" width="200"/>|❌ 1 or 0.9|
 
 * Ran the Fenix 6 against the Fenix 7 multiple times and results kept giving 1.0, 1 or 0.9.
   * Also added the following line to the prompt but it didn't help: `Compare closely because differences between product versions can be small.`
