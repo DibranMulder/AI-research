@@ -68,3 +68,5 @@ __azurite_db*__.json
 # Azure functions
 local.settings.json
 test-output.xml
+
+data/imagevectors.jsonl
